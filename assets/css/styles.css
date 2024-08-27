@@ -138,6 +138,49 @@ body {
     background-color: #6C757D;
 }
 
+footer img {
+    max-width: 10%;
+    height: auto;
+}
+
+footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
+
+footer ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+footer ul li a {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+footer ul li a:hover {
+    color: #007bff;
+}
+
+form .form-control {
+    border-radius: 0;
+}
+
+form .btn {
+    border-radius: 0;
+}
+
+@media (max-width: 768px) {
+    footer .row > div {
+        text-align: center;
+    }
+}
+
 
 
 /* Responsive */
@@ -159,6 +202,7 @@ body {
         flex: 0 1 calc(50% - 1rem);
         max-width: calc(50% - 1rem);
     }
+
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
