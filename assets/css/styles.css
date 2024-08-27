@@ -41,6 +41,14 @@ body {
 
 }
 
+.product-card h5{
+    text-transform: uppercase;
+}
+
+.product-card a{
+    text-decoration: none;
+}
+
 .container {
     margin-top: 2rem;
 }
@@ -179,6 +187,12 @@ form .btn {
     footer .row > div {
         text-align: center;
     }
+    .product-card h5 {
+        font-size: 0.9rem;
+    }
+    .product-card {
+        margin-bottom: 2em;
+    }
 }
 
 
@@ -188,6 +202,12 @@ form .btn {
 @media (min-width: 1200px) {
     .product-container {
         justify-content: space-between;
+    }
+    .product-card{
+        margin-bottom: 1rem;
+        flex: 0 1 calc(100% - 2rem);
+        margin-right: 1rem;
+        margin-left: 1rem;
     }
 }
 
@@ -202,7 +222,14 @@ form .btn {
         flex: 0 1 calc(50% - 1rem);
         max-width: calc(50% - 1rem);
     }
+    .product-card{
+        margin-bottom: 1rem;
+        flex: 0 1 calc(100% - 1rem);
+        margin-right: 0;
+        margin-left: 0;
 
+    }
+ 
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -214,6 +241,14 @@ form .btn {
     .card {
         flex: 0 1 calc(50% - 1rem);
         max-width: calc(50% - 1rem);
+    }
+
+    .product-card{
+        margin-bottom: 1rem;
+        flex: 0 1 calc(100% - 1rem);
+        margin-right: 0;
+        margin-left: 0;
+
     }
 }
 
@@ -238,5 +273,12 @@ form .btn {
 
     .card-price {
         font-size: 1.1rem;
+    }
+
+    .product-card{
+        margin-bottom: 1rem;
+        flex: 0 1 calc(100% - 1rem);
+        margin-right: 0;
+        margin-left: 0;
     }
 }
