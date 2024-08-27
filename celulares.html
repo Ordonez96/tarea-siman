@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="logo__img" src="./assets/img/logoç.jpg" alt="Siman" style="height: 2.5rem;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto ">
+                        <li class="nav-item"><a class="nav-link" href="#">Celulares</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Calzado</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Tecnología</a></li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                        <button class="btn btn-outline-light" type="submit">Buscar</button>
+                    </form>
+                    <ul class="navbar-nav ms-2">
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-person"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-cart"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mt-4">
+        <section class="sub__title"><p class="text">Celulares</p></section>
+        <div class="row">
+            <div class="container mt-5">
+                <div class="product-container d-flex flex-nowrap">
+                    <!-- Producto 1 -->
+                    <div class="card product-card">
+                        <img class="product__img" src="./assets/img/a15_5g.jpg" class="card-img-top" alt="Samsung Galaxy A15 5G">
+                        <div class="card-body text-center">
+                            <h6 class="card-title">Samsung Galaxy A15 5G</h6>
+                            <p class="card-price text-danger">$219.00 <span class="text-muted"><s>$319.00</s></span></p>
+                            <p class="discount">-31%</p>
+                            <div class="installment">
+                                <span class="badge bg-secondary">6 Cuotas</span>
+                            </div>
+                            <div class="color-options mt-2">
+                                <span class="badge color-blue"></span>
+                                <span class="badge color-yellow"></span>
+                                <span class="badge color-black"></span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Producto 2 -->
+                    <div class="card product-card">
+                        <img class="product__img" src="./assets/img/samsung-Galaxy-A15-4GB.jpg" class="card-img-top" alt="Samsung Galaxy A15 4GB">
+                        <div class="card-body text-center">
+                            <h6 class="card-title">Samsung Galaxy A15 4GB</h6>
+                            <p class="card-price text-danger">$165.00 <span class="text-muted"><s>$195.00</s></span></p>
+                            <p class="discount">-15%</p>
+                            <div class="installment">
+                                <span class="badge bg-secondary">6 Cuotas</span>
+                            </div>
+                            <div class="color-options mt-2">
+                                <span class="badge color-lightblue"></span>
+                                <span class="badge color-black"></span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Producto 3 -->
+                    <div class="card product-card">
+                        <img class="product__img" src="./assets/img/13-pro.jpg" class="card-img-top" alt="Xiaomi Redmi Note 13">
+                        <div class="card-body text-center">
+                            <h6 class="card-title">Xiaomi Redmi Note 13</h6>
+                            <p class="card-price text-danger">$229.00 <span class="text-muted"><s>$299.00</s></span></p>
+                            <p class="discount">-23%</p>
+                            <div class="installment">
+                                <span class="badge bg-secondary">6 Cuotas</span>
+                            </div>
+                            <div class="color-options mt-2">
+                                <span class="badge color-blue"></span>
+                                <span class="badge color-green"></span>
+                                <span class="badge color-black"></span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Producto 4 -->
+                    <div class="card product-card">
+                        <img class="product__img" src="./assets/img/Redmi.jpg" class="card-img-top" alt="Xiaomi Redmi 13C">
+                        <div class="card-body text-center">
+                            <h6 class="card-title">Xiaomi Redmi 13C</h6>
+                            <p class="card-price text-danger">$139.00 <span class="text-muted"><s>$169.00</s></span></p>
+                            <p class="discount">-18%</p>
+                            <div class="installment">
+                                <span class="badge bg-secondary">6 Cuotas</span>
+                            </div>
+                            <div class="color-options mt-2">
+                                <span class="badge color-blue"></span>
+                                <span class="badge color-black"></span>
+                                <span class="badge color-gray"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
